@@ -1,0 +1,110 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+h4 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+section {
+    text-indent: 7%;
+}
+
+.animalsection {
+    width: 100%;
+    border-style: solid;
+    display: inline-table;
+}
+
+@media screen and (min-width: 500px) {
+    .animalsection {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .animalsection {
+        float: left;
+        width: 25%;
+    }
+}
+
+.mineralsection {
+    width: 100%;
+    border-style: solid;
+    display: inline-table;
+}
+
+@media screen and (min-width: 500px) {
+    .mineralsection {
+        background-color: cornflowerblue;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .mineralsection {
+        background-color: darkseagreen;
+    }
+}
+
+.veggiesection {
+    width: 100%;
+    border-style: solid;
+    display: inline-table;
+}
+
+@media screen and (min-width: 500px) {
+    .veggiesection {
+        font-size: larger;
+        color: lawngreen;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .veggiesection {
+        font-size: x-large;
+        color: lightcoral;
+    }
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+/*Simple.html code below*/
+
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
